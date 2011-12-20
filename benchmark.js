@@ -81,7 +81,7 @@ bm('sys.inherits() instance', function(){
     User.call(this, name)
   }
   sys.inherits(Admin, User)
-  
+
   while (n--) new Admin('tj')
 })
 
